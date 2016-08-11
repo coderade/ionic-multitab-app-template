@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <script src="cordova.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/main/mainController.js"></script>
+  </head>
+  <body ng-app="ionicApp">
+
+    <ion-pane ng-controller="mainController">
+      <ion-header-bar class="bar-dark">
+        <button class="button button-icon ion-minus-circled"
+                ng-click="data.showDelete = !data.showDelete;
+                          data.showReorder = false;">
+        </button>
+        <h2 class="title">Best Games ever List</h2>
+        <button class="button button-icon ion-android-arrow-down"
+        ng-click="data.showReorder = !data.showReorder;
+                  data.showDelete = false;">
+        </button>
+      </ion-header-bar>
+      <div class="bar bar-subheader item-input-inset bar-light">
+        <label class="item-input-wrapper">
+          <span class="icon ion-search placeholder-icon"></span>
+          <input type="search" ng-model="query" placeholder="Search">
+        </label>
+      </div>
+      <ion-content  class="has-subheader">
+        <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+        <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+          <ion-item ng-class="{'star': game.star}" ng-repeat='game in games | filter:query' class="item-thumbnail-left item-text-wrap
+          item-icon-right">
+            <img ng-src="img/{{game.slug}}.jpg" alt="{{game.name}} Photo">
+            <h2><strong>{{game.name}}</strong></h2>
+            <h3 >{{game.plataform}}</h3>
+            <h4>{{game.year}}</h4>
+            <p>{{game.bio | limitTo:200}}{{game.bio.length> 200 ? '&hellip;' : ''}}</p>
+            <button class="button button-clear icon ion-star button-assertive"
+                    ng-click="toggleStar(game)" ng-show="game.star"></button>
+            <ion-option-button class="button-dark" ng-click="toggleStar(game)">
+              <i class="icon ion-star"></i>
+            </ion-option-button>
+            <ion-delete-button class="ion-minus-circled" ng-click="onGameDelete(game)">
+            </ion-delete-button>
+            <ion-reorder-button class="ion-navicon"
+                                on-reorder="moveGame(game, $fromIndex, $toIndex)">
+            </ion-reorder-button>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

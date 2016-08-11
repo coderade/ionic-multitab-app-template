@@ -1,0 +1,50 @@
+[
+    {
+      "name": "The Legend of Zelda - Ocarina Of Time",
+      "slug": "zelda-ocarina-of-time",
+      "year": "1998",
+      "publisher": "Nintendo",
+      "plataform": "Nintendo 64",
+      "bio": "The Legend of Zelda: Ocarina of Time is an action-adventure game with role-playing and puzzle elements setin a large open-world environment. The player controls series protagonist Link from a third-person perspective, in a three-dimensional world. Link primarily fights with a sword and shield, but he can also use other weapons such as projectiles, bombs, and magic spells."
+    },
+    {
+      "name": "Tetris",
+      "slug": "tetris",
+      "year": "1984",
+      "publisher": "List",
+      "plataform": "Electronika 60",
+      "bio": "Tetris is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984, while he was working for the Dorodnicyn Computing Centre of the Academy of Science of the USSR in Moscow.[2] He derived its name from the Greek numerical prefix tetra- (all of the game's pieces contain four segments) and tennis, Pajitnov's favorite sport."
+    },
+    {
+      "name": "Chrono Trigger",
+      "slug": "chrono-trigger",
+      "year": "1995",
+      "publisher": "Square",
+      "plataform": "SNES - Super Nintendo Entertainment System",
+      "bio": "Chrono Trigger is a role-playing video game developed and published by Square (now Square Enix) for the Super Nintendo Entertainment System in 1995. Chrono Trigger's development team included three designers that Square dubbed the Dream Team: Hironobu Sakaguchi, the creator of Square's Final Fantasy series; Yuji Horii, a freelance designer and creator of Enix's popular Dragon Quest series; and Akira Toriyama, a freelance manga artist famed for his work with Dragon Quest and Dragon Ball."
+    },
+    {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "slug": "zelda-link-of-past",
+      "year": "1991",
+      "publisher": "Nintendo",
+      "plataform": "SNES - Super Nintendo Entertainment System",
+      "bio": "The Legend of Zelda: A Link to the Past, known as The Legend of Zelda: Triforce of the Gods is an action-adventure video game developed and published by Nintendo for the Super Nintendo Entertainment System video game console. It is the third installment in The Legend of Zelda series and was released in 1991 in Japan and 1992 in North America and Europe."
+    },
+    {
+      "name": "Super Mario 64",
+      "slug": "mario64",
+      "year": "1996",
+      "publisher": "Nintendo",
+      "plataform": "Nintendo 64",
+      "bio": "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64. Along with Pilotwings 64, it was one of the launch titles for the console.[3] It was released in Japan on June 23, 1996, and later in North America, Europe, and Australia. It is the best-selling game on the Nintendo 64, with more than eleven million copies sold.[4][5] An enhanced remake called Super Mario 64 DS was released for the Nintendo DS in 2004."
+    },
+    {
+      "name": "Final Fantasy VII",
+      "slug": "final-fantasy-vii",
+      "year": "1997",
+      "publisher": "PlayStation",
+      "plataform": "PlayStation",
+      "bio": "Final Fantasy VII is a role-playing video game developed and published by Square (now Square Enix) for the PlayStation platform. Released in 1997, it is the seventh installment in the Final Fantasy series and the first in the series to use 3D computer graphics, featuring fully rendered characters on pre-rendered backgrounds"
+    }
+  ]

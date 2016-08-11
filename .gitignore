@@ -1,0 +1,11 @@
+.idea
+node_modules
+plugins
+scss
+www/lib
+*.DS_Store
+*.log
+*.swp
+.editorconfig
+hooks
+
