@@ -1,50 +1,51 @@
 [
     {
-      "name": "The Legend of Zelda - Ocarina Of Time",
-      "slug": "zelda-ocarina-of-time",
-      "year": "1998",
-      "publisher": "Nintendo",
-      "plataform": "Nintendo 64",
-      "bio": "The Legend of Zelda: Ocarina of Time is an action-adventure game with role-playing and puzzle elements setin a large open-world environment. The player controls series protagonist Link from a third-person perspective, in a three-dimensional world. Link primarily fights with a sword and shield, but he can also use other weapons such as projectiles, bombs, and magic spells."
+      "name": "Eminem",
+      "slug": "eminem",
+      "bestTrack": "Just Lose It",
+      "event": "Lollapalooza",
+      "bio": "Marshall Bruce Mathers III (born October 17, 1972),known professionally as Eminem (often stylized as EMINƎM), is an American rapper, songwriter, record producer, and actor from Detroit, Michigan. In addition to his solo career, he is a member of D12, and with Royce da 5'9 is one half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States."
     },
     {
-      "name": "Tetris",
-      "slug": "tetris",
-      "year": "1984",
-      "publisher": "List",
-      "plataform": "Electronika 60",
-      "bio": "Tetris is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984, while he was working for the Dorodnicyn Computing Centre of the Academy of Science of the USSR in Moscow.[2] He derived its name from the Greek numerical prefix tetra- (all of the game's pieces contain four segments) and tennis, Pajitnov's favorite sport."
+      "name": "Twenty One Pilots",
+      "slug": "twentyonepilots",
+      "bestTrack": "Stressed Out",
+      "event": "Lollapalooza",
+      "bio": "Twenty One Pilots is an American musical duo that originates from Columbus, Ohio. The band was formed in 2009 by Tyler Joseph along with former members Nick Thomas and Chris Salih, who eventually left in 2011, and currently consists of lead vocalist/keyboardist Tyler Joseph and drummer Josh Dun. They put out two self-released albums, Twenty One Pilots in 2009 and Regional at Best in 2011, before being signed by Fueled By Ramen in 2012."
     },
     {
-      "name": "Chrono Trigger",
-      "slug": "chrono-trigger",
-      "year": "1995",
-      "publisher": "Square",
-      "plataform": "SNES - Super Nintendo Entertainment System",
-      "bio": "Chrono Trigger is a role-playing video game developed and published by Square (now Square Enix) for the Super Nintendo Entertainment System in 1995. Chrono Trigger's development team included three designers that Square dubbed the Dream Team: Hironobu Sakaguchi, the creator of Square's Final Fantasy series; Yuji Horii, a freelance designer and creator of Enix's popular Dragon Quest series; and Akira Toriyama, a freelance manga artist famed for his work with Dragon Quest and Dragon Ball."
+      "name": "AC DC",
+      "slug": "acdc",
+      "bestTrack": "Thunderstuck",
+      "event": "Rock in Rio",
+      "bio": "AC/DC are an Australian rock band, formed in 1973 by brothers Malcolm and Angus Young.[1] A hard rock/blues rock band,[2] they have also been considered a heavy metal band, although they have always dubbed their music simply rock and roll."
     },
     {
-      "name": "The Legend of Zelda: A Link to the Past",
-      "slug": "zelda-link-of-past",
-      "year": "1991",
-      "publisher": "Nintendo",
-      "plataform": "SNES - Super Nintendo Entertainment System",
-      "bio": "The Legend of Zelda: A Link to the Past, known as The Legend of Zelda: Triforce of the Gods is an action-adventure video game developed and published by Nintendo for the Super Nintendo Entertainment System video game console. It is the third installment in The Legend of Zelda series and was released in 1991 in Japan and 1992 in North America and Europe."
+      "name": "Snoop Dog",
+      "slug": "snoopdog",
+      "bestTrack": "The Next Episode",
+      "event": "Lollapalooza",
+      "bio": "Cordozar Calvin Broadus, Jr. (born October 20, 1971), known professionally as Snoop Dogg (formerly Snoop Doggy Dogg), is an American rapper and actor from Long Beach, California. His music career began in 1992 when he was discovered by Dr. Dre of N.W.A, and as a result, was prominently featured throughout Dr. Dre's solo debut album, The Chronic (1992)."
     },
     {
-      "name": "Super Mario 64",
-      "slug": "mario64",
-      "year": "1996",
-      "publisher": "Nintendo",
-      "plataform": "Nintendo 64",
-      "bio": "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64. Along with Pilotwings 64, it was one of the launch titles for the console.[3] It was released in Japan on June 23, 1996, and later in North America, Europe, and Australia. It is the best-selling game on the Nintendo 64, with more than eleven million copies sold.[4][5] An enhanced remake called Super Mario 64 DS was released for the Nintendo DS in 2004."
+      "name": "System of a Down",
+      "slug": "systemofadown",
+      "bestTrack": "B.Y.O.B",
+      "event": "Rock in Rio",
+      "bio": "System of a Down, sometimes shortened to SOAD or System, is a four-piece Armenian-American rock band formed in 1994 in Glendale, California, in the United States. The band currently consists of Serj Tankian (lead vocals, keyboards), Daron Malakian (vocals, guitar), Shavo Odadjian (bass, backing vocals) and John Dolmayan (drums)."
     },
     {
-      "name": "Final Fantasy VII",
-      "slug": "final-fantasy-vii",
-      "year": "1997",
-      "publisher": "PlayStation",
-      "plataform": "PlayStation",
-      "bio": "Final Fantasy VII is a role-playing video game developed and published by Square (now Square Enix) for the PlayStation platform. Released in 1997, it is the seventh installment in the Final Fantasy series and the first in the series to use 3D computer graphics, featuring fully rendered characters on pre-rendered backgrounds"
+      "name": "Gorillaz",
+      "slug": "gorillaz",
+      "bestTrack": "Clint Eastwood",
+      "event": "Glastonbury",
+      "bio": "Gorillaz are an English virtual band created in 1998 by Damon Albarn and Jamie Hewlett. The band consists of four animated members: 2D (lead vocals, keyboard), Murdoc Niccals (bass guitar, vocals), Noodle (guitar, keyboard, and backing vocals) and Russel Hobbs (drums and percussion). These members are completely fictional and are not personas of any real life musicians involved in the project."
+    },
+    {
+      "name": "Slipknot",
+      "slug": "slipknot",
+      "bestTrack": "Duality",
+      "event": "Rock in Rio",
+      "bio": "FSlipknot is an American heavy metal band from Des Moines, Iowa. The band was founded in September 1995 by percussionist Shawn Crahan and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Corey Taylor, Mick Thomson, Jim Root, Paul Gray, Craig Jones, Sid Wilson, Shawn Crahan, Chris Fehn and Joey Jordison."
     }
   ]

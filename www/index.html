@@ -38,22 +38,22 @@
       <ion-content  class="has-subheader">
         <ion-refresher on-refresh="doRefresh()"></ion-refresher>
         <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
-          <ion-item ng-class="{'star': game.star}" ng-repeat='game in games | filter:query' class="item-thumbnail-left item-text-wrap
+          <ion-item ng-class="{'star': artist.star}" ng-repeat="artist in artists | filter:query" class="item-thumbnail-left item-text-wrap
           item-icon-right">
-            <img ng-src="img/{{game.slug}}.jpg" alt="{{game.name}} Photo">
-            <h2><strong>{{game.name}}</strong></h2>
-            <h3 >{{game.plataform}}</h3>
-            <h4>{{game.year}}</h4>
-            <p>{{game.bio | limitTo:200}}{{game.bio.length> 200 ? '&hellip;' : ''}}</p>
+            <img ng-src="img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
+            <h2><strong>{{artist.name}}</strong></h2>
+            <h3 >{{artist.bestTrack}}</h3>
+            <h4>{{artist.event}}</h4>
+            <p>{{artist.bio}}</p>
             <button class="button button-clear icon ion-star button-assertive"
-                    ng-click="toggleStar(game)" ng-show="game.star"></button>
-            <ion-option-button class="button-dark" ng-click="toggleStar(game)">
+                    ng-click="toggleStar(artist)" ng-show="artist.star"></button>
+            <ion-option-button class="button-dark" ng-click="toggleStar(artist)">
               <i class="icon ion-star"></i>
             </ion-option-button>
-            <ion-delete-button class="ion-minus-circled" ng-click="onGameDelete(game)">
+            <ion-delete-button class="ion-minus-circled" ng-click="onArtistDelete(artist)">
             </ion-delete-button>
             <ion-reorder-button class="ion-navicon"
-                                on-reorder="moveGame(game, $fromIndex, $toIndex)">
+                                on-reorder="moveArtist(artist, $fromIndex, $toIndex)">
             </ion-reorder-button>
           </ion-item>
         </ion-list>
