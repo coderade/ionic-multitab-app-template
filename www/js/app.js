@@ -13,5 +13,25 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+})
+
+.config(function ($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    .state('tabs', {
+      url: '/tab',
+      abstract: true,
+      templateUrl: 'templates/tabs.html'
+    })
+    .state('tabs.list',{
+      url: '/list',
+      views: {
+        'list-tab': {
+          templateUrl: 'templates/list.html',
+          controller: 'mainController'
+        }
+      }
+    })
+    $urlRouterProvider.otherwise('tab/list')
 });
+
 

@@ -1,0 +1,43 @@
+<ion-pane ng-controller="mainController">
+  <ion-header-bar class="bar-positive">
+    <button class="button button-icon ion-minus-circled"
+            ng-click="data.showDelete = !data.showDelete;
+                          data.showReorder = false;">
+    </button>
+    <h2 class="title">Artists 2016</h2>
+    <button class="button button-icon ion-navicon"
+            ng-click="data.showReorder = !data.showReorder;
+                  data.showDelete = false;">
+    </button>
+  </ion-header-bar>
+  <div class="bar bar-subheader item-input-inset bar-light">
+    <label class="item-input-wrapper">
+      <span class="icon ion-search placeholder-icon"></span>
+      <input type="search" ng-model="query" placeholder="Search">
+    </label>
+  </div>
+  <ion-content  class="has-subheader">
+    <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+    <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+      <ion-item ng-class="{'star': artist.star}" ng-repeat="artist in artists | filter:query"
+                class="item-thumbnail-left item-text-wrap
+          item-icon-right">
+        <img ng-src="img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
+        <h2><strong>{{artist.name}}</strong></h2>
+        <h3 >{{artist.bestTrack}}</h3>
+        <h4>{{artist.event}}</h4>
+        <p>{{artist.bio}}</p>
+        <button class="button button-clear icon ion-star button-assertive"
+                ng-click="toggleStar(artist)" ng-show="artist.star"></button>
+        <ion-option-button class="button-dark" ng-click="toggleStar(artist)">
+          <i class="icon ion-star"></i>
+        </ion-option-button>
+        <ion-delete-button class="ion-minus-circled" ng-click="onArtistDelete(artist)">
+        </ion-delete-button>
+        <ion-reorder-button class="ion-navicon"
+                            on-reorder="moveArtist(artist, $fromIndex, $toIndex)">
+        </ion-reorder-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-pane>
