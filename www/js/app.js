@@ -31,7 +31,15 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
         }
       }
     })
-    $urlRouterProvider.otherwise('tab/list')
+    .state('tabs.home',{
+      url: '/home',
+      views: {
+        'home-tab': {
+          templateUrl: 'templates/home.html'
+        }
+      }
+    })
+    $urlRouterProvider.otherwise('/tab/home')
 });
 
 

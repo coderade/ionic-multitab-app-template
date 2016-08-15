@@ -1,3 +1,30 @@
 .star>.item-content {
   background-color: #EEE8D6 !important;
 }
+
+.splash{
+  background: url("../img/lolla-bg.png") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.branding{
+  width: 70%;
+  max-width: 300px;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.branding .tagline{
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+.branding p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+
