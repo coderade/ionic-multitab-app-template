@@ -2,50 +2,50 @@
     {
       "name": "Eminem",
       "slug": "eminem",
-      "bestTrack": "Just Lose It",
-      "event": "Lollapalooza",
+      "stage": "Samsung",
+      "time": "03-27 10:00 a.m",
       "bio": "Marshall Bruce Mathers III (born October 17, 1972),known professionally as Eminem (often stylized as EMINƎM), is an American rapper, songwriter, record producer, and actor from Detroit, Michigan. In addition to his solo career, he is a member of D12, and with Royce da 5'9 is one half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States."
     },
     {
       "name": "Twenty One Pilots",
       "slug": "twentyonepilots",
-      "bestTrack": "Stressed Out",
-      "event": "Lollapalooza",
-      "bio": "Twenty One Pilots is an American musical duo that originates from Columbus, Ohio. The band was formed in 2009 by Tyler Joseph along with former members Nick Thomas and Chris Salih, who eventually left in 2011, and currently consists of lead vocalist/keyboardist Tyler Joseph and drummer Josh Dun. They put out two self-released albums, Twenty One Pilots in 2009 and Regional at Best in 2011, before being signed by Fueled By Ramen in 2012."
+      "stage": "Trident",
+      "time": "03-27 12:00 a.m",
+      "bio": "Twenty One Pilots is an American musical duo that originates from Columbus, Ohio. The band was formed in 2009 by Tyler Joseph along with former members Nick Thomas and Chris Salih, who timeually left in 2011, and currently consists of lead vocalist/keyboardist Tyler Joseph and drummer Josh Dun. They put out two self-released albums, Twenty One Pilots in 2009 and Regional at Best in 2011, before being signed by Fueled By Ramen in 2012."
     },
     {
       "name": "AC DC",
       "slug": "acdc",
-      "bestTrack": "Thunderstuck",
-      "event": "Rock in Rio",
+      "stage": "Red Bull",
+      "time": "03-27 16:00 a.m",
       "bio": "AC/DC are an Australian rock band, formed in 1973 by brothers Malcolm and Angus Young.[1] A hard rock/blues rock band,[2] they have also been considered a heavy metal band, although they have always dubbed their music simply rock and roll."
     },
     {
       "name": "Snoop Dog",
       "slug": "snoopdog",
-      "bestTrack": "The Next Episode",
-      "event": "Lollapalooza",
+      "stage": "TNT",
+      "time": "03-27 18:00 a.m",
       "bio": "Cordozar Calvin Broadus, Jr. (born October 20, 1971), known professionally as Snoop Dogg (formerly Snoop Doggy Dogg), is an American rapper and actor from Long Beach, California. His music career began in 1992 when he was discovered by Dr. Dre of N.W.A, and as a result, was prominently featured throughout Dr. Dre's solo debut album, The Chronic (1992)."
     },
     {
       "name": "System of a Down",
       "slug": "systemofadown",
-      "bestTrack": "B.Y.O.B",
-      "event": "Rock in Rio",
+      "stage": "PEPSI",
+      "time": "03-27 20:00 a.m",
       "bio": "System of a Down, sometimes shortened to SOAD or System, is a four-piece Armenian-American rock band formed in 1994 in Glendale, California, in the United States. The band currently consists of Serj Tankian (lead vocals, keyboards), Daron Malakian (vocals, guitar), Shavo Odadjian (bass, backing vocals) and John Dolmayan (drums)."
     },
     {
       "name": "Gorillaz",
       "slug": "gorillaz",
-      "bestTrack": "Clint Eastwood",
-      "event": "Glastonbury",
+      "stage": "BMI",
+      "time": "03-28 10:00 a.m",
       "bio": "Gorillaz are an English virtual band created in 1998 by Damon Albarn and Jamie Hewlett. The band consists of four animated members: 2D (lead vocals, keyboard), Murdoc Niccals (bass guitar, vocals), Noodle (guitar, keyboard, and backing vocals) and Russel Hobbs (drums and percussion). These members are completely fictional and are not personas of any real life musicians involved in the project."
     },
     {
       "name": "Slipknot",
       "slug": "slipknot",
-      "bestTrack": "Duality",
-      "event": "Rock in Rio",
+      "stage": "Bud Light",
+      "time": "03-28 12:00 a.m",
       "bio": "FSlipknot is an American heavy metal band from Des Moines, Iowa. The band was founded in September 1995 by percussionist Shawn Crahan and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Corey Taylor, Mick Thomson, Jim Root, Paul Gray, Craig Jones, Sid Wilson, Shawn Crahan, Chris Fehn and Joey Jordison."
     }
   ]

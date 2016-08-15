@@ -31,6 +31,15 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
         }
       }
     })
+    .state('tabs.detail',{
+      url: '/list/:aId',
+      views: {
+        'list-tab': {
+          templateUrl: 'templates/detail.html',
+          controller: 'mainController'
+        }
+      }
+    })
     .state('tabs.home',{
       url: '/home',
       views: {
@@ -38,7 +47,7 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
           templateUrl: 'templates/home.html'
         }
       }
-    })
+    });
     $urlRouterProvider.otherwise('/tab/home')
 });
 

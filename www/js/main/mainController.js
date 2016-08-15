@@ -1,8 +1,9 @@
-ionicApp.controller("mainController", ['$scope', '$http',
-  function ($scope, $http) {
+ionicApp.controller("mainController", ['$scope', '$http', '$state',
+  function ($scope, $http, $state) {
     $http.get('data/data.json').success(
       function (data) {
         $scope.artists = data;
+        $scope.whichArtist =$state.params.aId;
 
         $scope.moveArtist = function (artist, fromIndex, toIndex) {
           $scope.artists.splice(fromIndex, 1);

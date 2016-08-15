@@ -21,11 +21,11 @@
     <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
       <ion-item ng-class="{'star': artist.star}" ng-repeat="artist in artists | filter:query"
                 class="item-thumbnail-left item-text-wrap
-          item-icon-right">
+          item-icon-right" ng-href="#/tab/list/{{artist.slug}}">
         <img ng-src="img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
         <h2><strong>{{artist.name}}</strong></h2>
-        <h3 >{{artist.bestTrack}}</h3>
-        <h4>{{artist.event}}</h4>
+        <h3 >{{artist.stage}} Stage</h3>
+        <h4>{{artist.time}}</h4>
         <p>{{artist.bio}}</p>
         <button class="button button-clear icon ion-star button-assertive"
                 ng-click="toggleStar(artist)" ng-show="artist.star"></button>
