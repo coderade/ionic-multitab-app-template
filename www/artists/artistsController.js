@@ -1,9 +1,10 @@
-ionicApp.controller("mainController", ['$scope', '$http', '$state',
+ionicApp.controller("artistsController", ['$scope', '$http', '$state',
   function ($scope, $http, $state) {
     $http.get('data/data.json').success(
       function (data) {
-        $scope.artists = data;
-        $scope.whichArtist =$state.params.aId;
+
+        $scope.artists = data.artists;
+        $scope.whichArtist =$state.params.slug;
 
         $scope.data = {showDelete: false,  showReorder: false};
 
@@ -23,7 +24,7 @@ ionicApp.controller("mainController", ['$scope', '$http', '$state',
         $scope.doRefresh = function () {
           $http.get('data/data.json').success(
             function (data) {
-              $scope.artists = data;
+              $scope.artists = data.artists;
               $scope.$broadcast('scroll.refreshComplete');
             });
         }

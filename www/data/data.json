@@ -1,23 +1,88 @@
-[
+{
+  "calendar": [
+    {
+      "weekday": "Saturday",
+      "title": "Saturday title",
+      "description": "Saturday bio",
+      "schedule": [
+        {
+          "time": "9:30-10:30am",
+          "slug": "eminem",
+          "artist": "Eminem",
+          "stage": "Samsung",
+          "description": "Eminem",
+          "title": "Eminem"
+        },
+        {
+          "time": "11:00am-1pm",
+          "slug": "twentyonepilots",
+          "artist":  "Twenty One Pilots",
+          "stage": "Trident",
+          "description": "Twenty One Pilots",
+          "title": "Twenty One Pilots"
+        },
+        {
+          "time": "2:30-4:00pm",
+          "slug": "acdc",
+          "artist":  "AC DC",
+          "stage": "TNT",
+          "description": "AC DC",
+          "title": "AC DC"
+        }
+      ]
+    },
+    {
+      "weekday": "Sunday",
+      "title": "Sunday title",
+      "description": "Sunday desc",
+      "schedule": [
+        {
+          "time": "9:30-10:30am",
+          "slug": "systemofadown",
+          "artist": "System of a Down",
+          "stage": "PEPSI",
+          "description": "System description",
+          "title": "System title"
+        },
+        {
+          "time": "10:30am-1pm",
+          "name": "Snoop Dog",
+          "slug": "snoopdog",
+          "stage": "Red Bull",
+          "description": "Snoop Description",
+          "title": "Snoop Title"
+        },
+        {
+          "time": "2:30-4:00pm",
+          "slug": "gorillaz",
+          "artist": "Gorillaz",
+          "stage": "BMI",
+          "description": "Gorrilaz desc",
+          "title": "Gorillaz title"
+        }
+      ]
+    }
+  ],
+  "artists": [
     {
       "name": "Eminem",
       "slug": "eminem",
       "stage": "Samsung",
-      "time": "03-27 10:00 a.m",
+      "time": "9:30-10:30am",
       "bio": "Marshall Bruce Mathers III (born October 17, 1972),known professionally as Eminem (often stylized as EMINƎM), is an American rapper, songwriter, record producer, and actor from Detroit, Michigan. In addition to his solo career, he is a member of D12, and with Royce da 5'9 is one half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States."
     },
     {
       "name": "Twenty One Pilots",
       "slug": "twentyonepilots",
       "stage": "Trident",
-      "time": "03-27 12:00 a.m",
+      "time": "11:00am-1pm",
       "bio": "Twenty One Pilots is an American musical duo that originates from Columbus, Ohio. The band was formed in 2009 by Tyler Joseph along with former members Nick Thomas and Chris Salih, who timeually left in 2011, and currently consists of lead vocalist/keyboardist Tyler Joseph and drummer Josh Dun. They put out two self-released albums, Twenty One Pilots in 2009 and Regional at Best in 2011, before being signed by Fueled By Ramen in 2012."
     },
     {
       "name": "AC DC",
       "slug": "acdc",
       "stage": "Red Bull",
-      "time": "03-27 16:00 a.m",
+      "time": "2:30-4:00pm",
       "bio": "AC/DC are an Australian rock band, formed in 1973 by brothers Malcolm and Angus Young.[1] A hard rock/blues rock band,[2] they have also been considered a heavy metal band, although they have always dubbed their music simply rock and roll."
     },
     {
@@ -31,14 +96,14 @@
       "name": "System of a Down",
       "slug": "systemofadown",
       "stage": "PEPSI",
-      "time": "03-27 20:00 a.m",
+      "time": "9:30-10:30am",
       "bio": "System of a Down, sometimes shortened to SOAD or System, is a four-piece Armenian-American rock band formed in 1994 in Glendale, California, in the United States. The band currently consists of Serj Tankian (lead vocals, keyboards), Daron Malakian (vocals, guitar), Shavo Odadjian (bass, backing vocals) and John Dolmayan (drums)."
     },
     {
       "name": "Gorillaz",
       "slug": "gorillaz",
       "stage": "BMI",
-      "time": "03-28 10:00 a.m",
+      "time": "2:30-4:00pm",
       "bio": "Gorillaz are an English virtual band created in 1998 by Damon Albarn and Jamie Hewlett. The band consists of four animated members: 2D (lead vocals, keyboard), Murdoc Niccals (bass guitar, vocals), Noodle (guitar, keyboard, and backing vocals) and Russel Hobbs (drums and percussion). These members are completely fictional and are not personas of any real life musicians involved in the project."
     },
     {
@@ -49,3 +114,4 @@
       "bio": "FSlipknot is an American heavy metal band from Des Moines, Iowa. The band was founded in September 1995 by percussionist Shawn Crahan and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Corey Taylor, Mick Thomson, Jim Root, Paul Gray, Craig Jones, Sid Wilson, Shawn Crahan, Chris Fehn and Joey Jordison."
     }
   ]
+}

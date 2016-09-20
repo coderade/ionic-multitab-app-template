@@ -7,7 +7,7 @@
     <ion-list class="list-inset">
       <ion-item class="item-text-wrap"
                 ng-repeat="artist in artists | filter: {slug: whichArtist}">
-        <img class="detail-img" ng-src="img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
+        <img class="detail-img" ng-src="assets/img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
         <h2><strong>{{artist.name}}</strong></h2>
         <h3>{{artist.stage}} Stage</h3>
         <h4>{{artist.time}}</h4>

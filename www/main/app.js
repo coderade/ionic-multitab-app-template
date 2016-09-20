@@ -20,23 +20,23 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
     .state('tabs', {
       url: '/tab',
       abstract: true,
-      templateUrl: 'templates/tabs.html'
+      templateUrl: 'main/tabs.html'
     })
-    .state('tabs.list',{
-      url: '/list',
+    .state('tabs.artists',{
+      url: '/artists',
       views: {
-        'list-tab': {
-          templateUrl: 'templates/list.html',
-          controller: 'mainController'
+        'artists-tab': {
+          templateUrl: '../artists/artistsList.html',
+          controller: 'artistsController'
         }
       }
     })
     .state('tabs.detail',{
-      url: '/list/:aId',
+      url: '/artists/:slug',
       views: {
-        'list-tab': {
-          templateUrl: 'templates/detail.html',
-          controller: 'mainController'
+        'artists-tab': {
+          templateUrl: '../artists/artistDetail.html',
+          controller: 'artistsController'
         }
       }
     })
@@ -44,7 +44,7 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
       url: '/home',
       views: {
         'home-tab': {
-          templateUrl: 'templates/home.html'
+          templateUrl: 'main/home.html'
         }
       }
     });

@@ -24,8 +24,8 @@
     <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
       <ion-item ng-class="{'star': artist.star}" ng-repeat="artist in artists | filter:query"
                 class="item-thumbnail-left item-text-wrap
-          item-icon-right" ng-href="#/tab/list/{{artist.slug}}">
-        <img ng-src="img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
+          item-icon-right" ng-href="#/tab/artists/{{artist.slug}}">
+        <img ng-src="assets/img/{{artist.slug}}.jpg" alt="{{artist.name}} Photo">
         <h2><strong>{{artist.name}}</strong></h2>
         <h3 >{{artist.stage}} Stage</h3>
         <h4>{{artist.time}}</h4>
