@@ -13,7 +13,6 @@ ionicApp.controller("calendarController", ['$scope', '$http', '$state',
         $scope.toggleStar = function (attraction) {
           attraction.star = !attraction.star;
         };
-
         $scope.doRefresh = function () {
           $http.get('data/data.json').success(
             function (data) {
