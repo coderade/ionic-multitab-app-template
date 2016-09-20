@@ -40,6 +40,15 @@ var ionicApp = angular.module('ionicApp', ['ionic'])
         }
       }
     })
+    .state('tabs.calendar',{
+      url: '/calendar',
+      views: {
+        'calendar-tab': {
+          templateUrl: '../calendar/calendar.html',
+          controller: 'calendarController'
+        }
+      }
+    })
     .state('tabs.home',{
       url: '/home',
       views: {

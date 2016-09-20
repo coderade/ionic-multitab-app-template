@@ -3,7 +3,7 @@
     {
       "weekday": "Saturday",
       "title": "Saturday title",
-      "description": "Saturday bio",
+      "description": "SDonec elit ligula, luctus eu fringilla vitae, convallis vitae dolor. Duis at libero ante. Nulla facilisi. Aliquam ut placerat diam. Ut pharetra nisl libero, sed commodo diam tristique sed. Donec sed dolor quis eros sodales sollicitudin. Vivamus et augue sit amet enim faucibus bibendum",
       "schedule": [
         {
           "time": "9:30-10:30am",
@@ -34,7 +34,7 @@
     {
       "weekday": "Sunday",
       "title": "Sunday title",
-      "description": "Sunday desc",
+      "description": "Aenean sed elit non felis egestas tristique. In scelerisque a massa ac maximus. Etiam malesuada convallis elit vitae dapibus. Suspendisse sem libero, feugiat vel laoreet eu, tristique sed urna. Sed fringilla malesuada enim sed pharetra. Nunc accumsan suscipit mollis. In porttitor finibus est, id viverra tellus tincidunt a.",
       "schedule": [
         {
           "time": "9:30-10:30am",
