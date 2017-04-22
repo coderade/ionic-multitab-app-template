@@ -1,4 +1,4 @@
-##Lollapalooza 2017 Attractions - Ionic Multi Tab App
+## Lollapalooza 2017 Attractions - Ionic Multi Tab App
 
 This project is a simple example created for didactic purposes that demonstrate a multi tab application developed using 
 Ionic.
@@ -8,7 +8,7 @@ This project is based in my other Ionic [project](https://github.com/coderade/io
 In this application you can search, reorder and delete the attractions.
 
 
-###Screens
+### Screens
 
 ##### Home
 ![Home](images/home.png)
