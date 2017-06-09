@@ -1,9 +1,8 @@
-## Lollapalooza 2017 Attractions - Ionic Multi Tab App
+## Ionic Multi Tab App Template
 
-This project is a simple example created for didactic purposes that demonstrate a multi tab application developed using 
-Ionic.
+This project is a simple template of a multi tab application developed using Ionic.
 
-This project is based in my other Ionic [project](https://github.com/coderade/ionic-single-view).
+This project is based in my other Ionic [project](https://github.com/coderade/ionic-single-view-template).
 
 In this application you can search, reorder and delete the attractions.
 
@@ -26,23 +25,26 @@ In this application you can search, reorder and delete the attractions.
 
 ### How to use
 
-Download and install the Node.Js and NPM using the [NVM](https://github.com/creationix/nvm) site.
+Download and install the Node.Js using the [NVM](https://github.com/creationix/nvm).
+
+Install the [yarn](https://yarnpkg.com/en/) following the official 
+[documentation](https://yarnpkg.com/lang/en/docs/install/#linux-tab).
 
 Clone the repository and install the node modules.
 
-`npm install`
+`yarn install`
 
 Install the Bower globally:
 
-`npm install -g bower`
+`yarn global add bower`
+
+Install the Ionic globally:
+
+`yarn global add ionic`
 
 Install the Bower components:
 
 `bower install`
-
-Install the Ionic globally:
-
-`npm install -g ionic`
 
 After this, you can run the application.
 
@@ -50,7 +52,7 @@ After this, you can run the application.
 
 #### Running the application
 
-You can use the Ionic to serve this apllication.
+You can use the Ionic to serve this application.
 
 To do this on the root of the project use the `ionic serve` command.
 
