@@ -12,3 +12,10 @@ patch:
         patched: '2018-06-19T08:08:08.938Z'
     - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2018-06-19T08:08:08.938Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-23T08:38:45.417Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-23T08:38:45.417Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-23T08:38:45.417Z'
